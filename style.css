@@ -1,0 +1,81 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+h3{
+  color:#b63c0b;
+}
+body { 
+  background-color: #f9e8bd;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  color: #523a01;
+}
+header {
+  margin: 1em;
+  width: 60em;
+  background-color: #fbd269;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 1em;
+}
+/*  link  */
+a:link {
+  color: #ab7d12;
+  text-decoration: none;
+}
+a:hover {
+  color: #f9e8bd;
+  background-color: #f9e8bd86;
+}
+a:visited {
+  color: #755407;
+  text-decoration: none;
+}
+/*  link  */
+/*  imagens  */
+#prod-foto {
+  margin: 1rem;
+  height: 15rem;
+  border-radius: 1em;
+}
+.button {
+  margin: 2rem;
+  height: 10rem;
+  border-radius: 200em;
+}
+/*  imagens  */
+/* miolo */ 
+main {
+  display: flex;
+  margin: 1rem;  
+  width: 60em;  
+}
+div {
+  padding: 1rem;
+}
+.mapa {
+  width: 55em; 
+  display: flex;  
+}
+fieldset {
+  border-radius: 2em;
+  background-color: #f4ead0;  
+}
+.preco{
+  font-size: large;
+  font-style: italic;
+  align-items: right;
+  background-color: #edc76c;
+  border-radius: 10px;
+}
+/* miolo */ 
+/* rodape */ 
+footer {
+  font-size: small;
+  margin-top: 50px;
+  text-align: center;
+}
+/* rodape */ 
